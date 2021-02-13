@@ -2,14 +2,14 @@ lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
-  spec.name    = "fluent-plugin-http-healthcheck"
+  spec.name    = "fluent-plugin-http-healthcheck-do"
   spec.version = "0.1.0"
-  spec.authors = ["k63207"]
-  spec.email   = ["k63207@gmail.com"]
+  spec.authors = ["f8"]
+  spec.email   = ["forest@f8security.com"]
 
   spec.summary       = %q{fluentd plug-in for HTTP Health Check}
   spec.description   = %q{fluentd plug-in for HTTP Health Check}
-  spec.homepage      = "https://github.com/k63207/fluent-plugin-http-healthcheck"
+  spec.homepage      = "https://github.com/F8Security/fluent-plugin-http-healthcheck"
   spec.license       = "Apache-2.0"
 
   test_files, files  = `git ls-files -z`.split("\x0").partition do |f|

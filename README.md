@@ -1,4 +1,4 @@
-# fluent-plugin-http-healthcheck
+# fluent-plugin-http-healthcheck-do
 
 [Fluentd](https://fluentd.org/) input plugin to do something.
 

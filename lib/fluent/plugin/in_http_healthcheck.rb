@@ -20,7 +20,7 @@ module Fluent::Plugin
     Fluent::Plugin.register_input('http_healthcheck', self)
     def on_request(path_info, params)
       begin
-        return ["200 OK", {'Content-Type'=>'text/plain'}, ""]
+        return ["200 OK", {'Content-Type'=>'text/plain'}, "OK"]
       end
     end
   end
